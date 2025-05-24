@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/notesapp
+      # For MongoDB Atlas:
+      # uri: mongodb+srv://username:password@cluster.mongodb.net/notesapp
+  
+server:
+  port: 8080
+  
+logging:
+  level:
+    com.notesapp: DEBUG
+    org.springframework.data.mongodb: DEBUG
